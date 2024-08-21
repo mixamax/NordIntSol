@@ -1,0 +1,31 @@
+.title {
+    color: $primary-color;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: normal;
+}
+.table-container {
+    height: calc(100vh - 112px);
+    width: 100%;
+    margin-top: 24px;
+}
+
+.grid-root {
+    border: none;
+}
+.headers {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.17px;
+    color: $primary-color;
+    font-weight: 600;
+}
+.cell {
+    border: none;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.17px;
+    color: rgba($color: #000000, $alpha: 0.87);
+    font-weight: 400;
+    border: none;
+}

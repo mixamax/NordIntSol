@@ -1,0 +1,36 @@
+@import "../../assets/global.scss";
+
+.header-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-height: 80px;
+    background-color: $header-background-color;
+    padding-left: 32px;
+    gap: 8px;
+}
+.header-input {
+    padding-left: 10px;
+    width: 912px;
+    height: 42px;
+    background-color: $secondary-background-color;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: aqua;
+    margin-right: 8px;
+    & input::placeholder {
+        font-style: italic;
+        color: #828282;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.17px;
+    }
+    & input {
+        color: black;
+        font-weight: 500px;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.17px;
+    }
+}
